@@ -214,7 +214,7 @@ QA-CSV/
 
 **Justin Arndt**  
 *Quality Assurance & Computer System Validation Specialist*  
-Lancaster, PA | [LinkedIn](https://www.linkedin.com/in/justinarndt) | [GitHub](https://github.com/j-arndt) | [Portfolio](https://j-arndt.github.io)
+Lancaster, PA | [LinkedIn](https://www.linkedin.com/in/GRCEngineer) | [GitHub](https://github.com/j-arndt) | [Portfolio](https://github.com/j-arndt/QA-CSV/))
 
 * **8+ Years Experience:** Onsite contractor at GSK’s vaccine manufacturing facility authoring, validating, and maintaining 100+ controlled GxP documents across 10 computerized laboratory systems with zero critical FDA audit findings.
 * **Education:** Master of Science (M.S.) in Data Analytics (2025), Bachelor of Science (B.S.) in Cybersecurity & Information Assurance (2024).
