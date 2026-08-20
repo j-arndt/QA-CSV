@@ -14,7 +14,7 @@
 
 Late-stage biopharmaceutical manufacturing and clinical development operate at the intersection of stringent health authority mandates, cutting-edge drug delivery mechanisms, and modern cloud-native architectures. 
 
-This repository serves as an end-to-end **Quality Assurance (QA) and Computerized System Assurance (CSA)** blueprint specifically engineered for the lifecycle of **lysergide (LSD) D-tartrate orally disintegrating tablets (ODT)**—a micro-dosed psychiatric therapeutic indicated for Generalized Anxiety Disorder (GAD), Major Depressive Disorder (MDD), and Post-Traumatic Stress Disorder (PTSD)—as well as next-generation early-pipeline enantiomers (e.g., DT402 R-MDMA for Autism Spectrum Disorder).
+This repository serves as an end-to-end **Quality Assurance (QA) and Computerized System Assurance (CSA)** blueprint specifically engineered for the lifecycle of **lysergide (LSD) D-tartrate orally disintegrating tablets (ODT)**—a micro-dosed psychiatric therapeutic indicated for Generalized Anxiety Disorder (GAD), Major Depressive Disorder (MDD), and Post-Traumatic Stress Disorder (PTSD)—as well as next-generation early-pipeline enantiomers (DT402 R-MDMA for Autism Spectrum Disorder).
 
 This blueprint operationalizes:
 1. **FDA 21 CFR Part 11 & EU Annex 11:** Immutable, contemporaneous cryptographic audit trails and electronic signatures.
