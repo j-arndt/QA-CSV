@@ -73,7 +73,7 @@ Traditional Computer System Validation (CSV) spent 80% of effort generating pape
 
 1. **Direct Impact Systems (High Risk):** Software directly responsible for product quality, batch release decisions, or patient health (e.g., HPLC CDS peak calculation algorithms, ERP DEA vault mass-balance gating).
    * *Assurance Method:* Formal scripted Functional OQ/PQ, stress and boundary testing, negative failure-injection testing, and formal QA CSV board sign-off.
-2. **Indirect Impact Systems (Medium/Low Risk):** Software supporting operational workflows or quality management (e.g., eQMS CAPA routing, document management systems, training trackers).
+2. **Indirect Impact Systems (Medium/Low Risk):** Software supporting operational workflows or quality management (eQMS CAPA routing, document management systems, training trackers).
    * *Assurance Method:* Unscripted exploratory testing, leveraging supplier qualification (SOC 2 Type II, ISO 27001, supplier QA audit evidence), reducing documentation overhead by over 60% while elevating focus on patient-safety risks.
 
 The complete risk assessment workbook is available in [`docs/03_csa_risk_assessment_framework.md`](docs/03_csa_risk_assessment_framework.md).
@@ -109,12 +109,12 @@ The standard operating procedure is documented in [`docs/04_audit_trail_and_part
 Computerized systems in regulated biomanufacturing must maintain steady-state compliance throughout their lifecycle.
 
 ### Regulated Change Control Classification
-* **Standard Change:** Pre-qualified, routine operational updates (e.g., adding a qualified laboratory technician to an existing user role). Requires standard verification checklist.
+* **Standard Change:** Pre-qualified, routine operational updates (adding a qualified laboratory technician to an existing user role). Requires standard verification checklist.
 * **Normal / Minor Change:** Software configuration tweaks or non-impacting vendor patches. Requires documented risk assessment and unscripted user verification.
-* **Major Change:** Core algorithmic updates, database migrations, or OS upgrades (e.g., Windows 10/11 migration). Requires formal Change Request (CR), pre-approved Validation Protocol, regression test execution, and QA board approval.
+* **Major Change:** Core algorithmic updates, database migrations, or OS upgrades (Windows 10/11 migration). Requires formal Change Request (CR), pre-approved Validation Protocol, regression test execution, and QA board approval.
 
 ### Deviation Investigation & Root Cause Analysis (RCA)
-When system anomalies occur (e.g., communication drops between a Karl Fischer titrator and LIMS during release testing), formal investigation procedures are triggered:
+When system anomalies occur, formal investigation procedures are triggered:
 * **5 Whys Methodology:** Drilling down from symptom (data packet dropped) to root cause (OS power-management setting putting serial RS232 port into sleep mode).
 * **Ishikawa Fishbone Analysis:** Evaluating Personnel, Machine, Methods, Materials, Measurement, and Environment.
 * **CAPA Verification:** Implementing permanent OS registry fixes, updating IQ installation procedures, and re-executing OQ qualification protocols before closure.
